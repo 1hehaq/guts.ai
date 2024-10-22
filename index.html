@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guts AI - The Hunter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Guts AI</h1>
+            <p>No more man hunt, Only bug hunt!</p>
+        </header>
+        <main>
+            <div id="chat-container">
+                <div id="chat-messages"></div>
+                <form id="chat-form">
+                    <input type="text" id="user-input" autocomplete="off">
+                    <button type="submit" id="send-button" disabled>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" id="button-icon">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Guts AI</p>
+            <p>Made with ❤️ by <a href="https://github.com/1hehaq" target="_blank"><span onclick="window.open('https://github.com/1hehaq', '_blank')" style="color: white; cursor: pointer;">1hehaq</span></a></p>
+        </footer>
+    </div>
+    <div id="manga-panel"></div>
+    <script src="script.js"></script>
+</body>
+</html>
